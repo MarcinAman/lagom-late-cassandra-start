@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customVMEnabled" value="true" />
+    <option name="customVMPath" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8-openj9.jdk/Contents/Home" />
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/hello-api" />
+            <option value="$PROJECT_DIR$/hello-impl" />
+            <option value="$PROJECT_DIR$/hello-stream-api" />
+            <option value="$PROJECT_DIR$/hello-stream-impl" />
+            <option value="$PROJECT_DIR$/project" />
+            <option value="$PROJECT_DIR$/target/lagom-dynamic-projects/lagom-internal-meta-project-cassandra" />
+            <option value="$PROJECT_DIR$/target/lagom-dynamic-projects/lagom-internal-meta-project-kafka" />
+            <option value="$PROJECT_DIR$/target/lagom-dynamic-projects/lagom-internal-meta-project-service-locator" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.8" />
+      </SbtProjectSettings>
+    </option>
+    <option name="maximumHeapSize" value="4000" />
+    <option name="vmParameters" value="-Xms3G -Xmx6G -Xss3M" />
+  </component>
+</project>
